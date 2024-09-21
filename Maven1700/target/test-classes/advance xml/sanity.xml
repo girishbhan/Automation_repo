@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="FirstSuite">
+    <test name ="test1">
+      <classes>
+        <class name ="OpenCartProject.RegisterFunctionality"/>
+         <class name ="Practice2.OrangeHrmLogin"/>
+          <class name ="Practice2.VtigerLogin"/>
+           <class name ="TestNgPractice.BrokenLink"/>
+            <methods>
+             <method name ="Tc01"/>
+         </methods>
+      </classes>
+    </test>
+  </suite>

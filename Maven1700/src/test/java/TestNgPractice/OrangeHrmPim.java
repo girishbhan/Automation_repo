@@ -47,7 +47,7 @@ public class OrangeHrmPim extends SeleniumUtility {
          String Emp_Id=driver.findElement(By.xpath("//div[text()='1111']")).getText();
          Assert.assertEquals(givenEmp_Id, Emp_Id, "The User Has Been Created Successfully");
           }
-	@Test(priority=2)
+	//@Test(priority=2)
 	public void updatePim() {
 		
 	}

@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgPractice.OrangeHrmPim">
+      <class name="ClassAssignments.OrangeHrmPim">
         <methods>
-          <include name="openBrowser"/>
-          <include name="updatePim"/>
-          <include name="createPim"/>
-          <include name="loginAndNavigateToPimPage"/>
+          <include name="loginToOrangeHrm"/>
+          <include name="TestcreatePim"/>
         </methods>
-      </class> <!-- TestNgPractice.OrangeHrmPim -->
+      </class> <!-- ClassAssignments.OrangeHrmPim -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

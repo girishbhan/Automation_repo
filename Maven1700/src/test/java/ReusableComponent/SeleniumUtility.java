@@ -91,7 +91,7 @@ public class SeleniumUtility {
 		}
 
 	public void clickOnElement(WebElement element) {
-		//	waitForElementToBeClickable(element);
+			waitForElementToBeClickable(element);
 			element.click();
 		}
 		public String getRequiredAttributeValue(WebElement element,String attribute) {
@@ -262,7 +262,9 @@ public class SeleniumUtility {
 			wait.until(ExpectedConditions.visibilityOf(element));
 		}
 
-		
+		public void waitForElementToBeClickable(WebElement element) {
+			wait.until(ExpectedConditions.elementToBeClickable(element));
+		}
 		// * Method to wait for an element till it's not clickable.
 		
 

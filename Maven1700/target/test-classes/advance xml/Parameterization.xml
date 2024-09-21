@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Parameterization Test">
+  <test name = "Parameter Test">
+   <parameter name ="password" value="admin"/>
+    <parameter name ="browser"  value ="firefox"/>
+     <parameter name ="username" value ="admin"/>
+      <classes>
+       <class name ="TestNgPractice2.Parameterization"/>     
+      </classes>
+    </test>
+</suite>

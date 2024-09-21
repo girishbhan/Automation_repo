@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 import ReusableComponent.GenericFunctions;
 
 public class BrokenLink extends GenericFunctions {
+
   @Test (priority =1)
   public void Tc_01() {
 	  WebDriver driver= createInstanceOfRequiredBrowser("firefox");

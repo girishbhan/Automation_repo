@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNgPractice.VtigerOrganization">
+        <methods>
+          <include name="loginValidation"/>
+          <include name="editOrganization"/>
+          <include name="deleteOrganization"/>
+        </methods>
+      </class> <!-- TestNgPractice.VtigerOrganization -->
+      <class name="TestNgPractice.VtigerCampaign">
+        <methods>
+          <include name="clickOnCampaigns"/>
+          <include name="editCampaign"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestNgPractice.VtigerCampaign -->
+      <class name="TestNgPractice.BrokenLink">
+        <methods>
+          <include name="Tc_02"/>
+        </methods>
+      </class> <!-- TestNgPractice.BrokenLink -->
+      <class name="TestNgPractice.VtigerContact">
+        <methods>
+          <include name="editContact"/>
+          <include name="postConditions"/>
+          <include name="deleteContact"/>
+          <include name="createContact"/>
+          <include name="loginValidation"/>
+        </methods>
+      </class> <!-- TestNgPractice.VtigerContact -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

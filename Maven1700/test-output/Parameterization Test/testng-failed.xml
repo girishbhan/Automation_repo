@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterization Test]">
+  <test thread-count="5" name="Parameter Test(failed)">
+    <classes>
+      <class name="TestNgPractice2.Parameterization">
+        <methods>
+          <include name="testCaseTwo"/>
+          <include name="testCaseThree"/>
+          <include name="testCaseOne"/>
+          <include name="testLoginOfVtiger"/>
+        </methods>
+      </class> <!-- TestNgPractice2.Parameterization -->
+    </classes>
+  </test> <!-- Parameter Test(failed) -->
+</suite> <!-- Failed suite [Parameterization Test] -->
